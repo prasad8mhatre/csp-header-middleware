@@ -4,7 +4,10 @@
   "description": "Middleware for express app for adding Content-Security-Policy header",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "posttest": "nyc report -r=lcov",
+    "test-cov": "nyc --reporter=lcov mocha --exit \"test/*.js\" && nyc report",
+    "coveralls": "cat coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "csp-header": "^5.0.0"
