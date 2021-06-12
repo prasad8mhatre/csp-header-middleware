@@ -1,0 +1,15 @@
+{
+  "name": "csp-header-middleware",
+  "version": "1.0.0",
+  "description": "Middleware for express app for adding Content-Security-Policy header",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "keywords": [
+    "csp",
+    "content-security-policy"
+  ],
+  "author": "Prasad Mhatre",
+  "license": "MIT"
+}
