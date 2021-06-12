@@ -39,6 +39,15 @@ describe("csp Headers Unit Test", () => {
             expect(mockResponse._headers['content-security-policy']).to.equal('script-src \'self\'; style-src \'self\';')
         });
     });
+
+    it("Validate csp headers with custom headers in response body", () => {
+        const headers = {
+            'default-src':["'self'"]
+        }
+        cspHeaders(headers)(mockRequest, mockResponse, () => {
+            expect(mockResponse._headers['content-security-policy']).to.equal('default-src \'self\';')
+        });
+    });
     
 });
 
