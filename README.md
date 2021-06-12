@@ -35,6 +35,4 @@
     npm test
     
 ## License
-[MIT](https://github.com/prasad8mhatre/csp-header-middleware/blob/main/LICENSE)
-    
-    
+[MIT](https://github.com/prasad8mhatre/csp-header-middleware/blob/master/LICENSE)
