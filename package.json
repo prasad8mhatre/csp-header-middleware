@@ -6,10 +6,42 @@
   "scripts": {
     "test": "nyc mocha"
   },
+  "dependencies": {
+    "csp-header": "^5.0.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "4.3.4",
+    "coveralls": "3.1.0",
+    "express": "4.17.1",
+    "mocha": "8.4.0",
+    "node-mocks-http": "1.10.1",
+    "nyc": "15.1.0",
+    "supertest": "6.1.3"
+  },
   "keywords": [
     "csp",
-    "content-security-policy"
+    "content-security-policy",
+    "xss",
+    "sanitize",
+    "filter",
+    "html",
+    "injection",
+    "request",
+    "middleware",
+    "express"
   ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "package.json",
+    "lib/"
+  ],
+  "homepage": "https://github.com/prasad8mhatre/csp-header-middleware",
+  "bugs": {
+    "url": "https://github.com/prasad8mhatre/csp-header-middleware/issues"
+  },
   "author": "Prasad Mhatre",
   "license": "MIT"
 }
