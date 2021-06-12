@@ -1,1 +1,1 @@
-module.exports = require('./lib/cspHeaders.js');
+module.exports = require('./lib/csp-header-middleware.js');

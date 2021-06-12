@@ -1,4 +1,4 @@
-const cspHeaders = require('./../lib/cspHeaders').cspHeaders;
+const cspHeaders = require('./../lib/csp-header-middleware').cspHeaders;
 
 //assertion library
 const chai = require('chai');
